@@ -113,4 +113,28 @@ input:not([type='checkbox']) {
 
 .features {
   flex: 1.5;
+  padding: 2.5rem;
+}
+
+.feature {
+  padding-left: 30px;
+  position: relative;
+  margin: 2.5rem 0;
+}
+
+.feature i {
+  color: #2762eb;
+  position: absolute;
+  top: 2.5px;
+  left: 0;
+}
+
+.feature h3 {
+  margin: 0;
+}
+
+.feature p {
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 5px 0;
 }
