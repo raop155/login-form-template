@@ -13,7 +13,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  min-height: 100vh;
   padding: 1.5rem;
 }
 
@@ -137,4 +137,27 @@ input:not([type='checkbox']) {
   font-size: 14px;
   line-height: 1.8;
   margin: 5px 0;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  body {
+    align-items: start;
+    justify-content: start;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  form {
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .features {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
 }
